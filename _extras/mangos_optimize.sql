@@ -16,6 +16,8 @@
 -- Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 --
 
+ALTER TABLE `achievement_criteria_requirement` ORDER BY `criteria_id` ASC;
+ALTER TABLE `achievement_reward` ORDER BY `entry` ASC;
 ALTER TABLE `areatrigger_involvedrelation` ORDER BY `id` ASC;
 ALTER TABLE `areatrigger_tavern` ORDER BY `id` ASC;
 ALTER TABLE `areatrigger_teleport` ORDER BY `id` ASC;
@@ -61,6 +63,7 @@ ALTER TABLE `game_graveyard_zone` ORDER BY `id` ASC;
 ALTER TABLE `game_tele` ORDER BY `id` ASC;
 ALTER TABLE `game_weather` ORDER BY `zone` ASC;
 ALTER TABLE `gameobject` ORDER BY `guid` ASC;
+ALTER TABLE `gameobject_addon` ORDER BY `guid` ASC;
 ALTER TABLE `gameobject_battleground` ORDER BY `guid` ASC;
 ALTER TABLE `gameobject_involvedrelation` ORDER BY `quest` ASC;
 ALTER TABLE `gameobject_loot_template` ORDER BY `entry` ASC;
@@ -71,11 +74,15 @@ ALTER TABLE `gameobject_template_scripts` ORDER BY `id` ASC, `delay` ASC;
 ALTER TABLE `gossip_menu` ORDER BY `entry` ASC;
 ALTER TABLE `gossip_menu_option` ORDER BY `menu_id` ASC;
 ALTER TABLE `gossip_scripts` ORDER BY `id` ASC, `delay` ASC;
+ALTER TABLE `instance_encounters` ORDER BY `entry` ASC;
 ALTER TABLE `instance_template` ORDER BY `map` ASC;
+ALTER TABLE `item_convert` ORDER BY `entry` ASC;
 ALTER TABLE `item_enchantment_template` ORDER BY `entry` ASC;
+ALTER TABLE `item_expire_convert` ORDER BY `entry` ASC;
 ALTER TABLE `item_loot_template` ORDER BY `entry` ASC;
 ALTER TABLE `item_required_target` ORDER BY `entry` ASC;
 ALTER TABLE `item_template` ORDER BY `entry` ASC;
+-- locales_achievement_reward
 -- locales_creature
 -- locales_gameobject
 -- locales_gossip_menu_option
@@ -87,10 +94,12 @@ ALTER TABLE `item_template` ORDER BY `entry` ASC;
 ALTER TABLE `mail_level_reward` ORDER BY `level` ASC;
 ALTER TABLE `mail_loot_template` ORDER BY `entry` ASC;
 ALTER TABLE `mangos_string` ORDER BY `entry` ASC;
+ALTER TABLE `milling_loot_template` ORDER BY `entry` ASC;
 ALTER TABLE `npc_gossip` ORDER BY `npc_guid` ASC;
 ALTER TABLE `npc_text` ORDER BY `ID` ASC;
 ALTER TABLE `npc_trainer` ORDER BY `entry` ASC;                
 ALTER TABLE `npc_trainer_template` ORDER BY `entry` ASC;
+ALTER TABLE `npc_spellclick_spells` ORDER BY `npc_entry` ASC;
 ALTER TABLE `npc_vendor` ORDER BY `entry` ASC, `item` ASC;
 ALTER TABLE `npc_vendor_template` ORDER BY `entry` ASC;
 ALTER TABLE `page_text` ORDER BY `entry` ASC;
@@ -114,6 +123,8 @@ ALTER TABLE `pool_gameobject_template` ORDER BY `id` ASC;
 ALTER TABLE `pool_template` ORDER BY `entry` ASC;
 ALTER TABLE `prospecting_loot_template` ORDER BY `entry` ASC;
 ALTER TABLE `quest_end_scripts` ORDER BY `id` ASC, `delay` ASC;
+ALTER TABLE `quest_poi` ORDER BY `questId` ASC;
+ALTER TABLE `quest_poi_points` ORDER BY `questId` ASC;
 ALTER TABLE `quest_start_scripts` ORDER BY `id` ASC, `delay` ASC;
 ALTER TABLE `quest_template` ORDER BY `entry` ASC;
 ALTER TABLE `reference_loot_template` ORDER BY `entry` ASC;
@@ -132,6 +143,7 @@ ALTER TABLE `spell_bonus_data` ORDER BY `entry` ASC;
 ALTER TABLE `spell_chain` ORDER BY `spell_id` ASC;
 ALTER TABLE `spell_elixir` ORDER BY `entry` ASC;
 ALTER TABLE `spell_learn_spell` ORDER BY `entry` ASC;
+ALTER TABLE `spell_loot_template` ORDER BY `entry` ASC;
 ALTER TABLE `spell_pet_auras` ORDER BY `spell` ASC;
 ALTER TABLE `spell_proc_event` ORDER BY `entry` ASC;
 ALTER TABLE `spell_proc_item_enchant` ORDER BY `entry` ASC;
