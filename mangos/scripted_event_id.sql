@@ -48,29 +48,29 @@ CREATE TABLE `scripted_event_id` (
 LOCK TABLES `scripted_event_id` WRITE;
 /*!40000 ALTER TABLE `scripted_event_id` DISABLE KEYS */;
 INSERT INTO `scripted_event_id` (`id`, `ScriptName`) VALUES
-(11225,'event_taxi_stormcrow'),
 (2228,'event_spell_altar_boss_aggro'),
 (2268,'event_spell_altar_boss_aggro'),
-(8328,'npc_kroshius'),
 (2488,'event_go_zulfarrak_gong'),
-(13513,'event_spell_soul_captured_credit'),
-(13514,'event_spell_soul_captured_credit'),
-(13515,'event_spell_soul_captured_credit'),
-(13516,'event_spell_soul_captured_credit'),
-(5618,'event_spell_gandling_shadow_portal'),
-(5619,'event_spell_gandling_shadow_portal'),
-(5620,'event_spell_gandling_shadow_portal'),
-(5621,'event_spell_gandling_shadow_portal'),
-(5622,'event_spell_gandling_shadow_portal'),
-(5623,'event_spell_gandling_shadow_portal'),
 (3094,'event_antalarion_statue_activation'),
 (3095,'event_antalarion_statue_activation'),
 (3097,'event_antalarion_statue_activation'),
 (3098,'event_antalarion_statue_activation'),
 (3099,'event_antalarion_statue_activation'),
 (3100,'event_antalarion_statue_activation'),
+(5618,'event_spell_gandling_shadow_portal'),
+(5619,'event_spell_gandling_shadow_portal'),
+(5620,'event_spell_gandling_shadow_portal'),
+(5621,'event_spell_gandling_shadow_portal'),
+(5622,'event_spell_gandling_shadow_portal'),
+(5623,'event_spell_gandling_shadow_portal'),
+(8328,'npc_kroshius'),
 (8502,'event_avatar_of_hakkar'),
-(9735,'event_spell_saronite_barrier');
+(9735,'event_spell_saronite_barrier'),
+(11225,'event_taxi_stormcrow'),
+(13513,'event_spell_soul_captured_credit'),
+(13514,'event_spell_soul_captured_credit'),
+(13515,'event_spell_soul_captured_credit'),
+(13516,'event_spell_soul_captured_credit');
 /*!40000 ALTER TABLE `scripted_event_id` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
