@@ -40,8 +40,8 @@ CREATE TABLE `gameobject_scripts` (
   `command` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `datalong` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `datalong2` int(10) unsigned NOT NULL DEFAULT '0',
-  `datalong3` int(10) unsigned NOT NULL DEFAULT '0',
-  `datalong4` int(10) unsigned NOT NULL DEFAULT '0',
+  `buddy_entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `search_radius` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `data_flags` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `dataint` int(11) NOT NULL DEFAULT '0',
   `dataint2` int(11) NOT NULL DEFAULT '0',
@@ -61,7 +61,7 @@ CREATE TABLE `gameobject_scripts` (
 
 LOCK TABLES `gameobject_scripts` WRITE;
 /*!40000 ALTER TABLE `gameobject_scripts` DISABLE KEYS */;
-INSERT INTO `gameobject_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `datalong3`, `datalong4`, `data_flags`, `dataint`, `dataint2`, `dataint3`, `dataint4`, `x`, `y`, `z`, `o`, `comments`) VALUES
+INSERT INTO `gameobject_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `buddy_entry`, `search_radius`, `data_flags`, `dataint`, `dataint2`, `dataint3`, `dataint4`, `x`, `y`, `z`, `o`, `comments`) VALUES
 (44811,0,11,15013,15,0,0,0,0,0,0,0,0,0,0,0,''),
 (44809,0,11,15012,15,0,0,0,0,0,0,0,0,0,0,0,''),
 (11894,0,11,11876,300,0,0,0,0,0,0,0,0,0,0,0,''),
@@ -123,8 +123,8 @@ INSERT INTO `gameobject_scripts` (`id`, `delay`, `command`, `datalong`, `datalon
 (93884,1,9,93875,600000,0,0,0,0,0,0,0,0,0,0,0,''),
 (93885,1,9,93874,600000,0,0,0,0,0,0,0,0,0,0,0,''),
 (42986,0,8,17682,1,0,0,0,0,0,0,0,0,0,0,0,'Kill credit for quest 9667'),
-(42986,3,0,0,17682,25,0,2,2000000313,0,0,0,0,0,0,0,'Princess Stillpine say'),
-(42986,6,20,2,17682,25,0,0,0,0,0,0,0,0,0,0,'Movement');
+(42986,3,0,0,0,17682,25,4,2000000313,0,0,0,0,0,0,0,'Princess Stillpine say'),
+(42986,6,20,2,0,17682,25,0,0,0,0,0,0,0,0,0,'Movement');
 /*!40000 ALTER TABLE `gameobject_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
