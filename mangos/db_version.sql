@@ -38,7 +38,7 @@ CREATE TABLE `db_version` (
   `version` varchar(120) DEFAULT NULL,
   `creature_ai_version` varchar(120) DEFAULT NULL,
   `cache_id` int(10) DEFAULT '0',
-  `required_11785_01_mangos_instance_encounters` bit(1) DEFAULT NULL
+  `required_11831_02_mangos_command` bit(1) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Used DB version notes';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -48,8 +48,8 @@ CREATE TABLE `db_version` (
 
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
-INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_11785_01_mangos_instance_encounters`) VALUES
-('UDB 0.12.2 (402) for MaNGOS 11792 with SD2 SQL for rev. 2279','ACID 3.0.8 - Full Release for Mangos (3.3.5a Client)',402,NULL);
+INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_11831_02_mangos_command`) VALUES
+('UDB 0.12.2 (403) for MaNGOS 11840 with SD2 SQL for rev. 2326','ACID 3.0.9 \'Streamlined Perfection\' - Full Release for MaNGOS (3.3.5a Client)',403,NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

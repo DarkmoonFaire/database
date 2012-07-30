@@ -540,7 +540,11 @@ INSERT INTO `event_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, 
 (5623,0,10,16119,300000,0,0,0,0,0,0,0,115.395,-1.5555,75.3663,0,'Scholo - Summons in Ravenian Room, uncertain'),
 (5623,0,10,16119,300000,0,0,0,0,0,0,0,117.713,1.8066,75.3663,0,'Scholo - Summons in Ravenian Room, uncertain'),
 (5623,0,10,16119,300000,0,0,0,0,0,0,0,118.67,-5.1001,75.3663,0,'Scholo - Summons in Ravenian Room, uncertain'),
-(18248,0,8,27450,1,0,0,0,0,0,0,0,0,0,0,0,'kill credit');
+(18248,0,8,27450,1,0,0,0,0,0,0,0,0,0,0,0,'kill credit'),
+(12607,1,8,19547,0,0,0,0,0,0,0,0,0,0,0,0,'Complete quest 10305 - Abjurist Belmara'),
+(12608,1,8,19549,0,0,0,0,0,0,0,0,0,0,0,0,'Complete quest 10182 - Battle-Mage Dathric'),
+(12609,1,8,19548,0,0,0,0,0,0,0,0,0,0,0,0,'Complete quest 10306 - Conjurer Luminrath'),
+(12610,1,8,19550,0,0,0,0,0,0,0,0,0,0,0,0,'Complete quest 10307 - Cohlien Frostweaver');
 /*!40000 ALTER TABLE `event_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

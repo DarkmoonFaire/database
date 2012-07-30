@@ -82,7 +82,12 @@ INSERT INTO `spell_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, 
 (50001,0,0,1,0,0,0,0,2000000192,0,0,0,0,0,0,0,'player yell'),
 (45958,1,20,2,25759,60,0,0,0,0,0,0,0,0,0,0,'start waypoint movement'),
 (45958,10,0,0,25759,60,0,0,2000000193,0,0,0,0,0,0,0,'npc say to player'),
-(45958,10,15,45981,5,0,0,0,0,0,0,0,0,0,0,0,'cast Escorting Alliance Deserter (as triggered)');
+(45958,10,15,45981,5,0,0,0,0,0,0,0,0,0,0,0,'cast Escorting Alliance Deserter (as triggered)'),
+(59910,0,15,59935,5,0,0,0,0,0,0,0,0,0,0,0,''),
+(59910,0,15,59938,5,0,0,0,0,0,0,0,0,0,0,0,''),
+(59910,0,15,59939,5,0,0,0,0,0,0,0,0,0,0,0,''),
+(59910,0,15,59940,5,0,0,0,0,0,0,0,0,0,0,0,''),
+(59910,0,15,59943,5,0,0,0,0,0,0,0,0,0,0,0,'');
 /*!40000 ALTER TABLE `spell_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
