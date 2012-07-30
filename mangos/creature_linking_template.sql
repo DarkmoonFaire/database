@@ -35,10 +35,10 @@ DROP TABLE IF EXISTS `creature_linking_template`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `creature_linking_template` (
-  `entry` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'creature_template.entry of the slave mob that is linked',
-  `map` mediumint(8) unsigned NOT NULL COMMENT 'Id of map of the mobs',
-  `master_entry` int(10) unsigned NOT NULL COMMENT 'master to trigger events',
-  `flag` mediumint(8) unsigned NOT NULL COMMENT 'flag - describing what should happen when',
+  `entry` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'creature_template.entry of the slave mob that is linked',
+  `map` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Id of map of the mobs',
+  `master_entry` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'master to trigger events',
+  `flag` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'flag - describing what should happen when',
   PRIMARY KEY (`entry`,`map`)
 ) ENGINE=MyISAM AUTO_INCREMENT=30683 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Creature Linking System';
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -78,7 +78,29 @@ INSERT INTO `creature_linking_template` (`entry`, `map`, `master_entry`, `flag`)
 (30681,615,28860,1),
 (30453,615,28860,1),
 (16506,533,15953,7),
-(16803,533,16061,7);
+(16803,533,16061,7),
+(2946,1,2433,3),
+(17827,564,1782,3),
+(16505,533,15953,7),
+(25588,580,25315,4),
+(19224,555,18732,4112),
+(19226,555,18732,4112),
+(28695,602,28587,4112),
+(28681,602,28587,4112),
+(32857,603,32867,143),
+(32927,603,32867,143),
+(15546,509,15369,4112),
+(15934,509,15369,4096),
+(15514,509,15370,1030),
+(36565,33,36296,140),
+(36272,33,36296,140),
+(17911,329,17910,143),
+(17912,329,17910,143),
+(17913,329,17910,143),
+(17914,329,17910,143),
+(20481,554,19221,4112),
+(21062,554,19220,4096),
+(1725,36,644,1);
 /*!40000 ALTER TABLE `creature_linking_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

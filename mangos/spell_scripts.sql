@@ -87,7 +87,19 @@ INSERT INTO `spell_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, 
 (59910,0,15,59938,5,0,0,0,0,0,0,0,0,0,0,0,''),
 (59910,0,15,59939,5,0,0,0,0,0,0,0,0,0,0,0,''),
 (59910,0,15,59940,5,0,0,0,0,0,0,0,0,0,0,0,''),
-(59910,0,15,59943,5,0,0,0,0,0,0,0,0,0,0,0,'');
+(59910,0,15,59943,5,0,0,0,0,0,0,0,0,0,0,0,''),
+(56796,1,0,0,0,0,0,0,2000000274,0,0,0,0,0,0,0,'say Correct Time Period'),
+(56797,1,0,0,0,0,0,0,2000000275,0,0,0,0,0,0,0,'say Incorrect Time Period'),
+(63449,0,15,63406,3,0,0,0,0,0,0,0,0,0,0,0,'Darnassus Champion\'s Pennant'),
+(63450,0,15,63423,3,0,0,0,0,0,0,0,0,0,0,0,'Exodar Champion\'s Pennant'),
+(63452,0,15,63396,3,0,0,0,0,0,0,0,0,0,0,0,'Gnomeregan Champion\'s Pennant'),
+(63453,0,15,63427,3,0,0,0,0,0,0,0,0,0,0,0,'Ironforge Champion\'s Pennant'),
+(62728,0,15,62594,3,0,0,0,0,0,0,0,0,0,0,0,'Stormwind Champion\'s Pennant'),
+(34874,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'Despawn Underbog Mushroom'),
+(27695,0,15,27696,1,0,0,0,0,0,0,0,0,0,0,0,'Cast Summon Bone Mage'),
+(27695,0,15,27697,1,0,0,0,0,0,0,0,0,0,0,0,'Cast Summon Bone Mage'),
+(27695,0,15,27698,1,0,0,0,0,0,0,0,0,0,0,0,'Cast Summon Bone Mage'),
+(27695,0,15,27699,1,0,0,0,0,0,0,0,0,0,0,0,'Cast Summon Bone Mage');
 /*!40000 ALTER TABLE `spell_scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

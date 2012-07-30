@@ -112,7 +112,7 @@ INSERT INTO `instance_template` (`map`, `parent`, `levelMin`, `levelMax`, `Scrip
 (574,0,65,0,'instance_utgarde_keep'),
 (575,0,75,0,'instance_pinnacle'),
 (576,0,66,0,'instance_nexus'),
-(578,0,75,0,''),
+(578,0,75,0,'instance_oculus'),
 (533,0,80,0,'instance_naxxramas'),
 (608,0,70,0,'instance_violet_hold'),
 (604,0,71,0,'instance_gundrak'),

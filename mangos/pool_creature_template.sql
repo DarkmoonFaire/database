@@ -56,7 +56,6 @@ INSERT INTO `pool_creature_template` (`id`, `pool_entry`, `chance`, `description
 (100,1001,0,'RARE Gruff Swiftbite - 100'),
 (61,1002,0,'RARE Thuros Lightfingers - 61'),
 (2773,1003,0,'RARE Or\'Kalar - 2773'),
-(572,1004,0,'RARE Leprithus - 572'),
 (462,1005,0,'RARE Vultros - 462'),
 (573,1006,0,'RARE Foe Reaper 4000 - 573'),
 (771,1007,0,'RARE Commander Felstrom - 771'),

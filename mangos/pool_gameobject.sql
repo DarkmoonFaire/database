@@ -34679,7 +34679,14 @@ INSERT INTO `pool_gameobject` (`guid`, `pool_entry`, `chance`, `description`) VA
 (193237,12315,5,'Zuldrak 189980, node 107'),
 (193236,12316,0,'Zuldrak 189978, node 108'),
 (193235,12316,45,'Zuldrak 189979, node 108'),
-(193234,12316,5,'Zuldrak 189980, node 108');
+(193234,12316,5,'Zuldrak 189980, node 108'),
+(26198,1900,0,'The Deadmines - Large Battered Chest 1'),
+(26210,1900,0,'The Deadmines - Large Battered Chest 2'),
+(30538,1900,0,'The Deadmines - Large Battered Chest 3'),
+(30540,1900,0,'The Deadmines - Large Battered Chest 4'),
+(34850,1900,0,'The Deadmines - Large Battered Chest 5'),
+(92216,1900,0,'The Deadmines - Large Battered Chest 6'),
+(92217,1900,0,'The Deadmines - Large Battered Chest 7');
 /*!40000 ALTER TABLE `pool_gameobject` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

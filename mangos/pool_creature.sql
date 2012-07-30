@@ -73,7 +73,9 @@ INSERT INTO `pool_creature` (`guid`, `pool_entry`, `chance`, `description`) VALU
 (83371,1509,0,'Auchenai Soulpriest - Group 10'),
 (105955,1601,70,'Tormented Officer'),
 (134515,1047,0,'Hematos (8976) - Spawn 1'),
-(134517,1601,30,'Deathsworn Captain');
+(134517,1601,30,'Deathsworn Captain'),
+(84079,1499,0,'The Deadmines - Miner Johnson'),
+(79179,1499,30,'The Deadmines - Defias Miner');
 /*!40000 ALTER TABLE `pool_creature` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -400,7 +400,7 @@ INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 (1001,1,'RARE Gruff Swiftbite - 100'),
 (1002,1,'RARE Thuros Lightfingers - 61'),
 (1003,1,'RARE Or\'Kalar - 2773'),
-(1004,1,'RARE Leprithus - 572'),
+(1900,3,'The Deadmines - Large Battered Chests'),
 (1005,1,'RARE Vultros - 462'),
 (1006,1,'RARE Foe Reaper 4000 - 573'),
 (1007,1,'RARE Commander Felstrom - 771'),
@@ -6091,7 +6091,8 @@ INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 (12313,1,'Zuldrak mineral, node 105'),
 (12314,1,'Zuldrak mineral, node 106'),
 (12315,1,'Zuldrak mineral, node 107'),
-(12316,1,'Zuldrak mineral, node 108');
+(12316,1,'Zuldrak mineral, node 108'),
+(1499,1,'The Deadmines - Miner Johnson');
 /*!40000 ALTER TABLE `pool_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
