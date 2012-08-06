@@ -48,7 +48,7 @@ CREATE TABLE `db_version` (
 
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
-INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_12012_01_mangos_spell_template`) VALUES
+INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_0001_01_mangos) VALUES
 ('UDB 0.12.2 (404) for MaNGOS 11928 with SD2 SQL for rev. 2478','ACID 3.0.9d \'Streamlined Perfection\' - Full Release for MaNGOS (3.3.5a Client)',404,NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
