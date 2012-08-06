@@ -48,7 +48,7 @@ CREATE TABLE `db_version` (
 
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
-INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_0001_01_mangos) VALUES
+INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_0001_01_mangos`) VALUES
 ('MaNGOS Cataclysm Patch 4.3.4 Database','ACID 3.0.9d \'Streamlined Perfection\' - Full Release for MaNGOS (3.3.5a Client)',404,NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
